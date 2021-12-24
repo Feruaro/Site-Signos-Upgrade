@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+   /* background: linear-gradient(68.15deg, #07002C, #3F1F4A); */
+    background-image: url("img/background/back.jpeg");
+}
+
+/* HEADER - TODOS */
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.cabecalho-img {
+    height: 150px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 45px;
+}
+
+.cabecalho-menu-item:hover {
+    color: rgba(263, 214, 196, 0.53);
+}
+
+.cabecalho-menu-item {
+    font-family:'Righteous', cursive;
+    color: #FFF2E7;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+
+/* MAIN - TODOS */
+
+.corpo {
+    display: flex;
+    flex-direction: row;
+ 
+    border-top: 0.2px solid #FFF2E7;
+    padding: 30px;
+}
+
+.corpo-menu {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border-right: 0.2px solid #FFF2E7;
+}
+
+.corpo-menu-item:hover {
+    color: rgba(263, 214, 196, 0.53);
+}
+
+.corpo-menu-item {
+    font-family: 'Sarala', sans-serif;
+    color: #FFF2E7; 
+    font-weight: 100;
+    font-size: 18px;
+    padding-right: 30px;
+}
+
+.corpo-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    padding: 50px;
+}
+
+.corpo-div-titulo {
+    font-family:'Righteous', cursive;
+    color: #FFF2E7; 
+    font-weight: 400;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.corpo-div-subtitulo {
+    font-family: 'Sarala', sans-serif;
+    color: #FFF2E7; 
+    font-weight: 400;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.link-repo:hover {
+    color: rgba(263, 214, 196, 0.53);
+}
+
+.link-repo {
+    font-family: 'Sarala', sans-serif;
+    color: #FFF2E7; 
+    font-weight: 700;
+}
+
+.corpo-secao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    gap: 50px;
+}
+
+.corpo-secao-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.corpo-secao-div1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+}
+
+.corpo-secao-div-titulo {
+    font-family:'Righteous', cursive;
+    color: #FFF2E7; 
+    font-weight: 400;
+    font-size: 22px;
+}
+
+.corpo-secao-div-sobre {
+    font-family: 'Sarala', sans-serif;
+    color: #FFF2E7; 
+    font-weight: 200;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.corpo-secao-div-img {
+    height: 300px;
+}
+
+.corpo-secao-pags {
+    display: flex; 
+    flex-direction: row;
+    gap: 15px;
+}
+
+.corpo-secao-pags-font:hover {
+    color: #40de9c;
+}
+
+.corpo-secao-pags-font {
+    font-family: 'Sarala', sans-serif;
+    color: #2F2325; 
+    font-weight: 200;
+    font-size: 18px;
+    border: 0.2px solid #FFF2E7;
+    background-color: #FFF2E7;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 1);
+    border-radius: 20px;
+}
+
+/* MAIN - CONTATOS */
+
+.corpo-secao-contatos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 120px;
+    padding: 50px;
+    padding-left: 150px;
+}
+
+.corpo-secao-contatos-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.corpo-secao-contatos-img {
+    height: 200px;
+}
+
+/* MAIN - FALECONOSCO */
+
+.corpo-div-form {
+    text-align: center;
+    font-family: 'Sarala', sans-serif;
+    color: #FFF2E7; 
+    font-weight: 100;
+    font-size: 18px;
+    padding-left: 300px;
+}  
+
+/* CAIXA DE RESP - FALECONOSCO */
+
+.caixa-resp {
+    background-color: #FFF2E7;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.38);
+    border-radius: 20px;  
+    font-family: 'Sarala', sans-serif;
+    text-align: center;
+    color: #2F2325;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+/* BOTÃO ENVIAR - FALECONOSCO */
+
+.botao-enviar:hover {
+    background-color: rgba(263, 214, 196, 0.53);
+}
+
+.botao-enviar {
+    background-color: #FFF2E7;
+    height: 50px;
+    width: 100px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.50);
+    border-radius: 20px;
+    font-family: 'Sarala', sans-serif;
+    color: #2F2325;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+/* FOOTER - TODOS */
+
+.rodape {
+    border-top: 0.2px solid #FFF2E7;
+    padding: 30px;
+}
+
+.rodape-img {
+    height: 30px;
+    display: block;
+    margin: 0 auto;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+}
+
