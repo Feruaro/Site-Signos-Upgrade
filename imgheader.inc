@@ -1,0 +1,1 @@
+<img class="cabecalho-img" src="img/logo/logo.jpg" alt="logo círculo de horóscopo">
