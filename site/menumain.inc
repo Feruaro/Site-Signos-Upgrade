@@ -1,0 +1,12 @@
+<a class="corpo-menu-item" href="pag1.php">Áries</a>
+<a class="corpo-menu-item" href="pag2.php">Touro</a>
+<a class="corpo-menu-item" href="pag3.php">Gêmeos</a>
+<a class="corpo-menu-item" href="pag4.php">Câncer</a>
+<a class="corpo-menu-item" href="pag5.php">Leão</a>
+<a class="corpo-menu-item" href="pag6.php">Virgem</a>
+<a class="corpo-menu-item" href="pag7.php">Libra</a>
+<a class="corpo-menu-item" href="pag8.php">Escorpião</a>
+<a class="corpo-menu-item" href="pag9.php">Sagitário</a>
+<a class="corpo-menu-item" href="pag10.php">Capricórnio</a>
+<a class="corpo-menu-item" href="pag11.php">Aquário</a>
+<a class="corpo-menu-item" href="pag12.php">Peixes</a>
