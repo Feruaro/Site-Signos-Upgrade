@@ -6,7 +6,7 @@
 
   * [Repositório](https://github.com/Feruaro/site-disciplina-html) do projeto;
 
-* URL: <a href="http://newsignos.c1.biz/" target="_blank">Signos 2.0</a>
+* URL: <a href="http://newsignos.c1.biz/">Signos 2.0</a>
 
   ​
 
