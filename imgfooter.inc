@@ -1,1 +1,0 @@
-<img class="rodape-img" src="img/logo/logorodape.png">
