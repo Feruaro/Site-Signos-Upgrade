@@ -59,3 +59,5 @@
 * [Favicon](http://www.favicon.pro/pt/)
 * [Canva](https://www.canva.com/)
 * [Adobe Creative Cloud Express](https://express.adobe.com/pt-BR/sp/design/post/urn:aaid:sc:US:ffe1c77b-f452-4da0-88a7-c0b07be404b8?workflow=blank&_branch_match_id=1002378104943377202&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXT0zJT0otLkgsyi7ILy7RSywo0MvJzMvWT7cozjapSLJwDAMAArqN4SoAAAA%3D)
+* [Biz.nf](https://www.biz.nf/)
+* [FileZilla Client](https://filezilla-project.org/)
