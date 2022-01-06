@@ -19,13 +19,10 @@
             <?php include "menumain.inc"; ?>
         </nav>  
         <section class="corpo-secao">
-            <div class="corpo-secao-div1">
-                <div class="corpo-secao-div">
-                    <h3 class="corpo-secao-div-titulo">Leão:</h3>
-                    <h3 class="corpo-secao-div-sobre">Leão é um signo fixo, isto é, independente do ano a data de virada do signo será sempre a mesma: o dia 22 de julho. Por isso, os nativos de Leão se encontram sempre entre os dias 22 de julho e 22 de agosto. O signo de Leão fortifica seu nativo, lhe transmite vitalidade e imposição, assim com o rei dos animais. Representado pela Constelação de Leo, esta pessoa sabe ser generosa mas espera elogios em troca, afinal, tudo depende de trocas (e você se esforçou para ter merecimento, não é mesmo?)!</h3>
-                </div>         
-                <img class="corpo-secao-div-img" src="img/signos/leao.png">
-            </div>           
+            <div class="corpo-secao-div">
+                <h3 class="corpo-secao-div-titulo">Leão:</h3>
+                <h3 class="corpo-secao-div-sobre">Leão é um signo fixo, isto é, independente do ano a data de virada do signo será sempre a mesma: o dia 22 de julho. Por isso, os nativos de Leão se encontram sempre entre os dias 22 de julho e 22 de agosto. O signo de Leão fortifica seu nativo, lhe transmite vitalidade e imposição, assim com o rei dos animais. Representado pela Constelação de Leo, esta pessoa sabe ser generosa mas espera elogios em troca, afinal, tudo depende de trocas (e você se esforçou para ter merecimento, não é mesmo?)!</h3>
+            </div>                  
             <div class="corpo-secao-div">                        
                 <h3 class="corpo-secao-div-titulo">Do que os Leoninos/Leoninas gostam?</h3>
                 <h3 class="corpo-secao-div-sobre">
@@ -39,7 +36,8 @@
                 </h3>
             </div>              
             <div class="corpo-secao-pags">					
-                <a class="corpo-secao-pags-font" href="pag4.php">Anterior</a><a class="corpo-secao-pags-font" href="pag6.php">Próxima</a>				
+                <a href="pag4.php"><button class="corpo-secao-pags-btn">Anterior</button></a> 
+                <a href="pag6.php"><button class="corpo-secao-pags-btn">Próxima</button></a> 		
             </div>            
         </section>    
     </main>

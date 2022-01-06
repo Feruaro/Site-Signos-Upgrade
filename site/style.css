@@ -11,6 +11,8 @@ body {
     font-size: 100%;
    /* background: linear-gradient(68.15deg, #07002C, #3F1F4A); */
     background-image: url("img/background/back.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /* HEADER - TODOS */
@@ -76,11 +78,20 @@ body {
 }
 
 .corpo-div {
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.corpo-div-home {    
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 50px;
+    gap: 100px;
     padding: 50px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
 }
 
 .corpo-div-titulo {
@@ -89,6 +100,8 @@ body {
     font-weight: 400;
     padding-left: 50px;
     padding-right: 50px;
+    text-align: center;
+    font-size: 32px;
 }
 
 .corpo-div-subtitulo {
@@ -100,7 +113,8 @@ body {
 }
 
 .link-repo:hover {
-    color: rgba(263, 214, 196, 0.53);
+    /* color: rgba(263, 214, 196, 0.53); */
+    color: #1b3308; 
 }
 
 .link-repo {
@@ -122,19 +136,19 @@ body {
     flex-direction: column;
     align-items: center;
     gap: 30px;
-    padding-left: 50px;
-    padding-right: 50px;
-}
-
-.corpo-secao-div1 {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 50px;
+    padding-left: 35px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
 }
 
 .corpo-secao-div-titulo {
     font-family:'Righteous', cursive;
+    text-align: center;
     color: #FFF2E7; 
     font-weight: 400;
     font-size: 22px;
@@ -158,30 +172,42 @@ body {
     gap: 15px;
 }
 
-.corpo-secao-pags-font:hover {
-    color: #40de9c;
+.corpo-secao-pags-btn:hover {
+    box-shadow: 10px 10px 0px #40de9c;
+    top: -5px;
+    left: -5px;
 }
 
-.corpo-secao-pags-font {
-    font-family: 'Sarala', sans-serif;
-    color: #2F2325; 
-    font-weight: 200;
-    font-size: 18px;
-    border: 0.2px solid #FFF2E7;
+.corpo-secao-pags-btn {
     background-color: #FFF2E7;
+    height: 40px;
+    width: 90px;
+    border: none;
     box-shadow: 4px 5px 4px rgba(0, 0, 0, 1);
     border-radius: 20px;
+    font-family: 'Sarala', sans-serif;
+    color: #2F2325;
+    font-weight: 400;
+    font-size: 20px;
 }
 
 /* MAIN - CONTATOS */
 
 .corpo-secao-contatos {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.corpo-secao-contatos-back {    
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 120px;
     padding: 50px;
-    padding-left: 150px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
 }
 
 .corpo-secao-contatos-div {
@@ -197,14 +223,29 @@ body {
 
 /* MAIN - FALECONOSCO */
 
+.corpo-secao-form {
+    padding-left: 300px;
+}
+
 .corpo-div-form {
     text-align: center;
     font-family: 'Sarala', sans-serif;
     color: #FFF2E7; 
     font-weight: 100;
     font-size: 18px;
-    padding-left: 300px;
-}  
+} 
+
+.corpo-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 120px;
+    padding: 50px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+}
 
 /* CAIXA DE RESP - FALECONOSCO */
 
@@ -223,13 +264,13 @@ body {
 /* BOTÃO ENVIAR - FALECONOSCO */
 
 .botao-enviar:hover {
-    background-color: rgba(263, 214, 196, 0.53);
+    background-color: rgba(263, 214, 196, 0.53); 
 }
 
 .botao-enviar {
     background-color: #FFF2E7;
     height: 50px;
-    width: 100px;
+    width: 90px;
     border: none;
     box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.50);
     border-radius: 20px;

@@ -19,13 +19,10 @@
             <?php include "menumain.inc"; ?>
         </nav>   
         <section class="corpo-secao">
-            <div class="corpo-secao-div1">
-                <div class="corpo-secao-div">
-                    <h3 class="corpo-secao-div-titulo">Sagitário:</h3>
-                    <h3 class="corpo-secao-div-sobre">Sagitarianos são pessoas que nasceram nos dias 22 de novembro a 21 de dezembro (há a possibilidade para o Sagitário ter a data diferente dependendo do ano).  Com características marcantes e admiráveis, possuem uma personalidade forte e alguns defeitos, e caso você conviva diariamente com pessoas deste signo, terá de aprender a lidar com estes detalhes. Mas eles também costumam ser simpáticos, ativos e trazem muita energia para o dia a dia!</h3>
-                </div>         
-                <img class="corpo-secao-div-img" src="img/signos/sagitario.png">
-            </div>
+            <div class="corpo-secao-div">
+                <h3 class="corpo-secao-div-titulo">Sagitário:</h3>
+                <h3 class="corpo-secao-div-sobre">Sagitarianos são pessoas que nasceram nos dias 22 de novembro a 21 de dezembro (há a possibilidade para o Sagitário ter a data diferente dependendo do ano).  Com características marcantes e admiráveis, possuem uma personalidade forte e alguns defeitos, e caso você conviva diariamente com pessoas deste signo, terá de aprender a lidar com estes detalhes. Mas eles também costumam ser simpáticos, ativos e trazem muita energia para o dia a dia!</h3>
+            </div>         
             <div class="corpo-secao-div">                              
                 <h3 class="corpo-secao-div-titulo">Do que os Sagitarianos/Sagitarianas gostam?</h3>
                 <h3 class="corpo-secao-div-sobre">
@@ -40,7 +37,8 @@
                 </h3>
             </div>             
             <div class="corpo-secao-pags">					
-                <a class="corpo-secao-pags-font" href="pag8.php">Anterior</a><a class="corpo-secao-pags-font" href="pag10.php">Próxima</a>				
+                <a href="pag8.php"><button class="corpo-secao-pags-btn">Anterior</button></a> 
+                <a href="pag10.php"><button class="corpo-secao-pags-btn">Próxima</button></a> 		
             </div>           
         </section>   
     </main>

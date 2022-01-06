@@ -19,13 +19,10 @@
             <?php include "menumain.inc"; ?>
         </nav>  
         <section class="corpo-secao">
-            <div class="corpo-secao-div1">
-                <div class="corpo-secao-div">
-                    <h3 class="corpo-secao-div-titulo">Virgem:</h3>
-                    <h3 class="corpo-secao-div-sobre">Virgem o sexto signo do zodíaco, forma juntamente com Touro e Capricórnio a triplicidade oriunda do elemento terra. É muito relativa a data que se inicia e finda este signo, portanto se você nasceu dois dias antes ou depois do período de 22 de agosto a 21 de setembro, será somente através do Mapa Astral que encontrará a certeza de qual signo do zodíaco pertence!</h3>
-                </div>         
-                <img class="corpo-secao-div-img" src="img/signos/virgem.png">
-            </div>           
+            <div class="corpo-secao-div">
+                <h3 class="corpo-secao-div-titulo">Virgem:</h3>
+                <h3 class="corpo-secao-div-sobre">Virgem o sexto signo do zodíaco, forma juntamente com Touro e Capricórnio a triplicidade oriunda do elemento terra. É muito relativa a data que se inicia e finda este signo, portanto se você nasceu dois dias antes ou depois do período de 22 de agosto a 21 de setembro, será somente através do Mapa Astral que encontrará a certeza de qual signo do zodíaco pertence!</h3>
+            </div>                 
             <div class="corpo-secao-div">                             
                 <h3 class="corpo-secao-div-titulo">Do que os Virginianos/Virginianas gostam?</h3>
                 <h3 class="corpo-secao-div-sobre">
@@ -41,7 +38,8 @@
                 </h3>
             </div>            
             <div class="corpo-secao-pags">					
-                <a class="corpo-secao-pags-font" href="pag5.php">Anterior</a><a class="corpo-secao-pags-font" href="pag7.php">Próxima</a>				
+                <a href="pag5.php"><button class="corpo-secao-pags-btn">Anterior</button></a> 
+                <a href="pag7.php"><button class="corpo-secao-pags-btn">Próxima</button></a> 			
             </div>           
         </section>    
     </main>

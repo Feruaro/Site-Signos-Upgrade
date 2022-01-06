@@ -19,13 +19,10 @@
             <?php include "menumain.inc"; ?>
         </nav> 
         <section class="corpo-secao">
-            <div class="corpo-secao-div1">
-                <div class="corpo-secao-div">
-                    <h3 class="corpo-secao-div-titulo">Câncer:</h3>
-                    <h3 class="corpo-secao-div-sobre">O quarto signo do zodíaco é representado pelas pessoas nascidas entre 21 de junho (ou 22 de junho, depende do ano de nascimento) a 22 de julho. Amigos, simpáticos, sensíveis e empáticos, essas são algumas das principais características de quem tem Câncer de signo!</h3>
-                </div>         
-                <img class="corpo-secao-div-img" src="img/signos/cancer.png">
-            </div>
+            <div class="corpo-secao-div">
+                <h3 class="corpo-secao-div-titulo">Câncer:</h3>
+                <h3 class="corpo-secao-div-sobre">O quarto signo do zodíaco é representado pelas pessoas nascidas entre 21 de junho (ou 22 de junho, depende do ano de nascimento) a 22 de julho. Amigos, simpáticos, sensíveis e empáticos, essas são algumas das principais características de quem tem Câncer de signo!</h3>
+            </div>         
             <div class="corpo-secao-div">                              
                 <h3 class="corpo-secao-div-titulo">Do que os Cancerianos/Cancerianas gostam?</h3>
                 <h3 class="corpo-secao-div-sobre">
@@ -41,7 +38,8 @@
                 </h3>
             </div>             
             <div class="corpo-secao-pags">					
-                <a class="corpo-secao-pags-font" href="pag3.php">Anterior</a><a class="corpo-secao-pags-font" href="pag5.php">Próxima</a>				
+                <a href="pag3.php"><button class="corpo-secao-pags-btn">Anterior</button></a> 
+                <a href="pag5.php"><button class="corpo-secao-pags-btn">Próxima</button></a> 		
             </div>           
         </section>   
     </main>

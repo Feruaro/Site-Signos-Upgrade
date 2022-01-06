@@ -19,13 +19,10 @@
             <?php include "menumain.inc"; ?>
         </nav> 
         <section class="corpo-secao">
-            <div class="corpo-secao-div1">
-                <div class="corpo-secao-div">
-                    <h3 class="corpo-secao-div-titulo">Peixes:</h3>
-                    <h3 class="corpo-secao-div-sobre">Nascidas entre os dias 20 de fevereiro a 20 de março. As pessoas do signo de Peixes pensam muito no bem comum, em tudo que é coletivo, e com ele não existe o individual. Para eles somente o todo faz parte da harmonia do Universo. Com um sexto sentido aguçado, os piscianos costumam resolverem tudo a base da intuição, a qual tem a fama de ser bem precisa. Eles têm uma sensibilidade à flor da pele, e são muito sensíveis por poderem sentir facilmente a energia dos outros e de tudo ao seu redor!</h3>
-                </div>         
-                <img class="corpo-secao-div-img" src="img/signos/peixes.png">
-            </div>
+            <div class="corpo-secao-div">
+                <h3 class="corpo-secao-div-titulo">Peixes:</h3>
+                <h3 class="corpo-secao-div-sobre">Nascidas entre os dias 20 de fevereiro a 20 de março. As pessoas do signo de Peixes pensam muito no bem comum, em tudo que é coletivo, e com ele não existe o individual. Para eles somente o todo faz parte da harmonia do Universo. Com um sexto sentido aguçado, os piscianos costumam resolverem tudo a base da intuição, a qual tem a fama de ser bem precisa. Eles têm uma sensibilidade à flor da pele, e são muito sensíveis por poderem sentir facilmente a energia dos outros e de tudo ao seu redor!</h3>
+            </div>         
             <div class="corpo-secao-div">                              
                 <h3 class="corpo-secao-div-titulo">Do que os Piscianos/Piscianas gostam?</h3>
                 <h3 class="corpo-secao-div-sobre">
@@ -39,7 +36,8 @@
                 </h3>
             </div>              
             <div class="corpo-secao-pags">					
-                <a class="corpo-secao-pags-font" href="pag11.php">Anterior</a><a class="corpo-secao-pags-font" href="contatos.php">Próxima</a>				
+                <a href="pag11.php"><button class="corpo-secao-pags-btn">Anterior</button></a>
+                <a href="contatos.php"><button class="corpo-secao-pags-btn">Próxima</button></a>			
             </div>            
         </section>    
     </main>

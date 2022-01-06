@@ -19,13 +19,10 @@
             <?php include "menumain.inc"; ?>
         </nav>  
         <section class="corpo-secao">
-            <div class="corpo-secao-div1">
-                <div class="corpo-secao-div">
-                    <h3 class="corpo-secao-div-titulo">Áries:</h3>
-                    <h3 class="corpo-secao-div-sobre">As pessoas do signo de Áries são as que nascem entre 21 de março a 20 de abril. Elas podem até ser conhecidas por um jeito ríspido, sincero demais e um pouco briguento, mas de forma alguma se limitam a isso. Os arianos também podem ser extremamente divertidos, contagiantes, generosos e até carinhosos com quem souber tirar isso deles. Enfim, ignore os estereótipos e saiba tudo sobre Áries e seu jeito de ser!</h3>
-                </div>         
-                <img class="corpo-secao-div-img" src="img/signos/aries.png">
-            </div>          
+            <div class="corpo-secao-div">
+                <h3 class="corpo-secao-div-titulo">Áries:</h3>
+                <h3 class="corpo-secao-div-sobre">As pessoas do signo de Áries são as que nascem entre 21 de março a 20 de abril. Elas podem até ser conhecidas por um jeito ríspido, sincero demais e um pouco briguento, mas de forma alguma se limitam a isso. Os arianos também podem ser extremamente divertidos, contagiantes, generosos e até carinhosos com quem souber tirar isso deles. Enfim, ignore os estereótipos e saiba tudo sobre Áries e seu jeito de ser!</h3>
+            </div>                 
             <div class="corpo-secao-div">   
                 <h3 class="corpo-secao-div-titulo">Do que os Arianos/Arianas gostam?</h3>
                 <h3 class="corpo-secao-div-sobre">
@@ -39,7 +36,8 @@
                 </h3>
             </div>              
             <div class="corpo-secao-pags">					
-                <a class="corpo-secao-pags-font" href="index.php">Anterior</a><a class="corpo-secao-pags-font" href="pag2.php">Próxima</a>				
+                <a href="index.php"><button class="corpo-secao-pags-btn">Anterior</button></a> 
+                <a href="pag2.php"><button class="corpo-secao-pags-btn">Próxima</button></a> 			
             </div>          
         </section>  
     </main>
