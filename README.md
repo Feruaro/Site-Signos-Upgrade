@@ -2,15 +2,17 @@
 
 ## Sejam bem-vindxs ao site Signos 2.0! 🚀
 
-* Desenvolvi esse [site](http://www.signosoficial.c1.biz/) com o tema - singos - para o trabalho final da disciplina de HTML do curso Técnico em Informática e depois de aprofundar um pouco mais meus estudos em HTML e CSS resolvi criar a versão 2.0 para praticar meus conhecimentos! 
+* Desenvolvi esse site com o tema - singos - para o trabalho final da disciplina de HTML do curso Técnico em Informática e depois de aprofundar um pouco mais meus estudos em HTML e CSS resolvi criar a versão 2.0 para praticar meus conhecimentos! 
 
-  * [Repositório](https://github.com/Feruaro/site-disciplina-html) do projeto;
+  * [Repositório](https://github.com/Feruaro/site-disciplina-html) do projeto   |   URL: [Signos](http://www.signosoficial.c1.biz/);
+
+    ​
 
 * URL: <a href="http://newsignos.c1.biz/">Signos 2.0</a>
 
   ​
 
-### 🌟 Site:
+### 💻 Site:
 
 --------
 
@@ -20,7 +22,9 @@
 
 <img src="https://github.com/Feruaro/Site-Signos-Upgrade/blob/main/img-readme/1.jpg">
 
-* Página "Fale Conosco":
+<br>
+
+* Página 1 "Áries":
 
   ​
 
