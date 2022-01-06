@@ -13,7 +13,7 @@
 
 -----------
 
-* <a href="http://newsignos.c1.biz/">Signos 2.0</a>
+* <a href="http://signos2.c1.biz/">Signos 2.0</a>
 
   ​
 
